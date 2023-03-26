@@ -1,0 +1,82 @@
+body {
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(9,11,122,1) 1%, rgba(0,212,255,1) 50%);
+    margin: auto;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+  } 
+
+h1 {
+    text-align: center;
+    font-size: 7em;
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+}
+
+.botao, .clearButton {
+    margin:auto;
+    display: flex;  
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to right, rgb(76, 131, 206) , rgb(244,255,244));
+}
+
+.botao:hover {
+    color: blue;
+    background-color: black;
+    transition: 0.7s;
+}
+    
+h2 {
+    text-align: center;
+    font-size: 4em;
+}
+
+#calculator {
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+#calculator > fieldset {
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+    color: blue;
+}
+
+#calculator > label{
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;
+}
+
+fieldset {
+    border-style: none;
+}
+
+
+@media screen and (max-width: 700px) {
+    h1,h2 {
+      font-size: 2.3em;
+    }
+  }
+
+@media screen and (max-width: 700px) {
+    .botao {
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    fieldset {
+        font-size: 0.5em;
+    }
+}
+
+  

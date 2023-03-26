@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
+    <title>Vagner's JavaScript</title>
+</head>
+<body>
+  <h1 id="Help">Good morning!</h1>
+    <button class="botao" type="button" id="button" onclick="testjs()">CLICK HERE!</button>
+  <h2 id="day">Have a great day!</h2>
+  <form id="calculator"> <h1>Simple Calculator</h1>
+  <fieldset>Please, choose a number:</fieldset><br>
+  <label for="number1">Number 1:</label>
+  <input type="number" id="number1" name="number1"><br><br>
+  <fieldset>Please, select an operator:</fieldset><br>
+  <label for="operator">Operator:</label>
+  <select id="operator" name="operator">
+    <option value="sum">+</option>
+    <option value="subtraction">-</option>
+    <option value="multiplication">*</option>
+    <option value="division">/</option>
+  </select><br><br>
+  <fieldset>Please, select another number:</fieldset>
+  <label for="number2">Number 2:</label>
+  <input type="number" id="number2" name="number2"><br><br>
+
+  <input type="button" class="botao" value="Calculate" onclick="calculate()"><br><br>
+
+  <label for="result" style="color:blue">Result:</label>
+  <input type="number" id="result" name="result" readonly>
+</form>
+<br>
+<br>
+<br>
+<button class="clearButton" onclick="clearResult()">Clear</button>
+<br>
+<h2>Thank you for visiting!</h2>
+</body>
+</html>
