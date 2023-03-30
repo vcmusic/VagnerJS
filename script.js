@@ -43,6 +43,10 @@ function calculate() {
   }
 
 function clearResult() {
+    const number1 = document.getElementById("number1"); 
+    const number2 = document.getElementById("number2");  
     const result = document.getElementById("result");
+    number1.value = "";
+    number2.value = "";
     result.value = "";
   }
